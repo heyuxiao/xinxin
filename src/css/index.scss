@@ -1,0 +1,131 @@
+@import "reset";
+@import "common";
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+#nav{
+	height: 42px;
+	border-bottom: 2px solid #343434;
+}
+.nav{
+	height: 42px;
+	border-bottom: 2px solid #FFDD00;
+}
+.nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav ul li{
+	height: 42px;
+}
+.nav ul a{
+	display: block;
+	font-size: 16px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.nav ul li:nth-child(1) a{
+	background: #ffdd00;
+	border-radius: 3px;
+}
+.nav ul a:hover{
+	background: #ffdd00;
+	border-radius: 3px;
+}
+#banner{
+	background: #ccc;
+}
+.swiper-container img{
+	height: 450px;
+	width: 100%;
+}
+.swiper-pagination{
+		position:relative;
+		width:100%;
+		top: 5px;
+		
+}
+.swiper-pagination-bullet{
+		width:156px;
+		height:80px;
+		background:none;
+}
+		
+.swiper-pagination-bullet img{
+		width:156px;
+		height: 65px;
+}
+#main{
+	background: #ccc;
+	
+}
+.onebox{
+	margin-bottom: 20px;
+}
+.onebox h2{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0 5px;
+	background: url(http://www.x-kicks.com/themes/newshoes/images/item_tit_line_bg.png) no-repeat center bottom;
+}
+.onebox>p{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	color: #6d6d6d;
+	position: relative;
+}
+.onebox>p>a{
+	position: absolute;
+	right: 0;
+	font-size: 16px;
+	color: #6d6d6d;
+}
+.onebox ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.item_pro_list{
+	width: 267px;
+}
+.pro_line{
+	display: block;
+	width: 267px;
+	height: 337px;
+	margin-top: 30px;
+	background: #fff;
+	position: relative;
+}
+.pro_line img{
+	width: 267px;
+	height: 195px;
+	padding-top: 25px;
+}
+.pro_imgtitle{
+	position: absolute;
+	bottom: 0px;
+	background: #343434;
+	padding: 10px 10px 0;
+}
+.pro_tit_font{
+	width: 267px;
+	height: 52px;
+	box-sizing: border-box;
+	font-size: 16px;
+	overflow: hidden;
+	color: #dcdcdc;
+}
+.pro_price{
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	font-size: 18px;
+	color: #ffe100;
+}
+
+
